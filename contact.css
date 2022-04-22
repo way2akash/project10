@@ -1,0 +1,100 @@
+
+
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactBody{
+    height: 90%;
+    width: 90%;
+    background-color: #ffffff10;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    text-align: center;
+    color: rgb(7, 7, 7);
+    text-shadow: 1px 1px 3px white;
+
+
+}
+.contactBody h2{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 40px;
+   
+}
+
+.contactBody p{
+    padding-top: 5px;
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    text-shadow: none;
+}
+.contactIcons{
+    width: 100%;
+    height: 70%;
+    padding: 0px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.contactIcons .contactCard{
+    width: 100%;
+    height: 70%;
+    background-color: rgb(42, 10, 158);
+    margin-top: 65px; margin:0 1%;
+ 
+
+}
+.contactCard:hover{
+    background-color:rgba(42, 10, 158, 0.3) ;
+}
+
+
+
+
+
+.contactCard .ikon{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-left: 35%;
+    margin-top: -55px;
+    margin-bottom: 25px;
+
+    background-color: rgb(255, 252, 252);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contactCard a{
+    text-decoration: none;
+}
+.fa-solid{
+font-size: 50px;
+color: rgb(48, 12, 253);
+text-shadow: 3px 3px 5px rgb(44, 44, 44);
+}
+
+.contactCard .cardText h3{
+    font-size: 30px;
+    font-weight: 700;
+    text-shadow: none;
+    margin-bottom: 2%;
+    color: black;
+}
+.contactCard .cardText h4{
+    text-shadow: none;
+    color: rgb(230, 233, 233);
+    font-size: 20px;
+    font-weight: 200;
+}
+
+
+
+
